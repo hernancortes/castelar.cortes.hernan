@@ -19,5 +19,10 @@ namespace HTML.Website.Controllers
             return View();
         }
 
+        public ActionResult AcercaDe()
+        {
+            return View();
+        }
+
     }
 }
