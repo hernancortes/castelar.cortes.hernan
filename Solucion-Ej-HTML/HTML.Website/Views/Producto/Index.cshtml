@@ -1,0 +1,33 @@
+﻿@using HTML.Website.Models;
+@{Layout = null;}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Ejercicio Productos</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Listado general de Productos
+        </h1>
+    </div>
+    <div>
+        <a href="/Home/Index">Regresar a Principal</a>
+    </div>
+    
+    <hr />
+    <p>
+        Capturar los elementos Producto de una lista - GestorBizProductos: GetProductos
+    </p>
+
+    <ul>
+        @foreach (var item in GestorBizProducto.GetProductos())
+        {
+            <li>Código: @item.Codigo - Nombre: @item.Nombre</li>
+        }
+    </ul>
+</body>
+</html>
