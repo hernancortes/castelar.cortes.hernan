@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HTML.Website.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,5 +16,23 @@ namespace HTML.Website.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(FormCollection form)
+        {
+            var producto = new Producto();
+            producto.Codigo = Convert.ToInt32(form["Codigo"]);
+            producto.Nombre = form["Nombre"];
+            producto.Descripcion = form["Descripcion"];
+            GestorBizProducto.Add(producto);
+
+            //return View();
+            return RedirectToAction("Index");
+        }
     }
 }
