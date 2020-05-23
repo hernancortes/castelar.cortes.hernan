@@ -10,6 +10,7 @@ nav {
 
 body {
     margin:0px;
+    height:100%;
 }
 
 .menu {
@@ -85,7 +86,7 @@ section {
     float: right;
     padding: 1%;
     width: 78%;
-    min-height: 400px;
+    min-height: 440px;
     overflow: auto;
 }
 
@@ -132,9 +133,9 @@ p {
 }
 
 article {
-    padding: 50px 2% 250px;
+    padding: 20px 2% 100px;
 }
 
 .content {
-    padding: 50px 2% 250px;
+    padding: 20px 2% 100px;
 }
