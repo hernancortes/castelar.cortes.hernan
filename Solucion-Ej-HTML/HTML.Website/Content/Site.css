@@ -1,7 +1,140 @@
-﻿h2{
-    color: #2624e1;
-}
-.color-rojo {
-    color: #ff0000;
+﻿/*
+header {
+    float: left;
 }
 
+nav {
+    float: right;
+}
+*/
+
+body {
+    margin:0px;
+}
+
+.menu {
+    //position: fixed; //para que flote el mmenu;
+    //max-height: 70px;
+    height: 70px;
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 6px;
+    background-color: #51514a;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0 5px 5px #888888;
+}
+
+.row {
+    width: 100%; //ancho;
+    max-width: 940px; //maximo ancho;
+    margin: 0 auto; //margenes;
+    position: relative;
+    padding: 0 1%;
+}
+
+.logo {
+    width: 50px; //ancho;
+    font-size: 25px; //altura letra;
+    color: #d5cfcf; //color letra;
+    text-transform: uppercase; //texto a mayusculas;
+    float: left; //flota a izquierda;
+    display: block;
+    margin-top: 0px; //margen superior;
+    margin-right: 0px; //margen derecho;
+    margin-bottom: 10px; //margen inferior;
+    margin-left: 0px; //margen izquierdo;
+    line-height: 1; //separacion entre lineas;
+}
+
+nav {
+    float: right;
+    width: 60%;
+}
+
+    nav ul {
+        list-style: none;
+        overflow: hidden;
+        text-align: right;
+        float: right;
+    }
+
+        nav ul li {
+            display: inline-block;
+            margin-left: 35px;
+            line-height: 1.5;
+        }
+
+        nav ul a {
+            color: #d5cfcf;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        nav ul li a:hover {
+            color: #ffffff;
+        }
+
+aside {
+    clear: both;
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+section {
+    float: right;
+    padding: 1%;
+    width: 78%;
+    min-height: 400px;
+    overflow: auto;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    float: none;
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    background-color: #51514a;
+    color: #d5cfcf;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    height: 40px;
+    box-shadow: 0 -5px 5px #888888;
+}
+
+body {
+    color: #404040;
+    background: #FFFFFF;
+    font-family: "Montserrat", "Cardo", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 1.8;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 2;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+article {
+    padding: 50px 2% 250px;
+}
+
+.content {
+    padding: 50px 2% 250px;
+}

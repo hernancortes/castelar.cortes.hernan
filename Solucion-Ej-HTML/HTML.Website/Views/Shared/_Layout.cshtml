@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+ 
+   <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title - UAI - LPPA</title>
+        <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+
+        <header class="menu">
+            <div class="row">
+                <a class="logo" href="/" title="Principal">HERNAN CORTES</a>
+                <nav>
+                    <div class="row">
+                        <ul>
+                            <li><a href="/">Principal</a></li>
+                            <li>
+                                <a href="#">Ejercicios</a>
+                                <!--
+                                <ul>
+                                    <li><a href="/Home/Ejercicio2">Ejercicio 2</a></li>
+                                    <li><a href="#">Ejercicio 3</a></li>
+                                    <li><a href="/Producto/Index">Gestión de Productos</a></li>
+                                </ul>
+                                -->
+                            </li>
+                            <li><a href="/Home/AcercaDe">Acerca de</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <aside>
+            <article>
+                <div>
+                    <h3>Sidebar</h3>
+                    <div>
+                        <ul>
+                            <li><a href="/">Principal</a></li>
+                            <li><a href="/Home/Ejercicio2">Ejercicio 2</a></li>
+                            <li><a href="/Producto/Index">Gestión de Productos</a></li>
+                            <li><a href="/Home/AcercaDe">Acerca de</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </article>
+        </aside>
+
+        <section>
+            <article>
+                @RenderBody()
+            </article>
+        </section>
+
+        <footer>
+            <div class="row">&copy; @DateTime.Now.Year - Hernan Cortes - LPPA - Universidad Abierta Interamericana</div>
+        </footer>
+ 
+        @RenderSection("scripts", required: false)
+
+    </body>
+
+</html>
