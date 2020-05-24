@@ -33,5 +33,10 @@ namespace HTML.Website.Controllers
         {
             return View();
         }
+
+        public ActionResult Ejercicio6()
+        {
+            return View();
+        }
     }
 }
