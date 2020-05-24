@@ -88,6 +88,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Ejercicios_CSS\estilos.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
@@ -128,6 +129,7 @@
     <Content Include="Views\Ejercicios_HTMLyCSS\Ejercicio11.cshtml" />
     <Content Include="Views\Ejercicios_CSS\Ejercicio1.cshtml" />
     <Content Include="Views\Ejercicios_CSS\Ejercicio2.cshtml" />
+    <Content Include="Views\Ejercicios_CSS\Ejercicio3.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
