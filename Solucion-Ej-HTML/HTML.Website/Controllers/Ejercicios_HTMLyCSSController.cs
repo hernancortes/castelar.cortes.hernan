@@ -18,5 +18,15 @@ namespace HTML.Website.Controllers
         {
             return View();
         }
+
+        public ActionResult Ejercicio3()
+        {
+            return View();
+        }
+
+        public ActionResult Ejercicio4()
+        {
+            return View();
+        }
     }
 }

@@ -117,6 +117,8 @@
     <Content Include="Views\Ejercicios_HTMLyCSS\Index.cshtml" />
     <Content Include="Views\Ejercicios_HTMLyCSS\Ejercicio2.cshtml" />
     <Content Include="Views\Ejercicios_CSS\Index.cshtml" />
+    <Content Include="Views\Ejercicios_HTMLyCSS\Ejercicio3.cshtml" />
+    <Content Include="Views\Ejercicios_HTMLyCSS\Ejercicio4.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
