@@ -17,51 +17,60 @@
                 <nav>
                     <div class="row">
                         <ul>
-                            <li><a href="/">Principal</a></li>
-                            <li>
-                                <a href="#">Ejercicios</a>
-                                <ul>
-                                    <li><a href="/Home/Ejercicio2">Ejercicio 2</a></li>
-                                    <li><a href="#">Ejercicio 3</a></li>
-                                    <li><a href="/Producto/Index">Gestión de Productos</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="/Home/AcercaDe">Acerca de</a></li>
+                            <li><a href="/Home/Index">Principal</a></li>
+                            <li><a href="/Ejercicios_HTMLyCSS/Index">EJERCICIOS HTML & CSS</a></li>
+                            <!--
+        <ul>
+            <li><a href="/Home/Ejercicio2">Ej2</a></li>
+            <li><a href="#">Ej3</a></li>
+            <li><a href="#">Ej4</a></li>
+            <li><a href="#">Ej5</a></li>
+            <li><a href="#">Ej6</a></li>
+            <li><a href="#">Ej7</a></li>
+            <li><a href="#">Ej8</a></li>
+            <li><a href="#">Ej9</a></li>
+            <li><a href="#">Ej10</a></li>
+            <li><a href="#">Ej11</a></li>
+            <li><a href="/Producto/Index">Gestión de Productos</a></li>
+        </ul>
+    -->
+                            <li><a href="/Ejercicios_CSS/Index">EJERCICIOS CSS</a></li>
+                            <li><a href="/Home/AcercaDe">Acerca de LPPA</a></li>
                         </ul>
-                    </div>
-                </nav>
-            </div>
-        </header>
-
-        <aside>
-            <article>
-                <div>
-                    <h3>Sidebar</h3>
-                    <div>
-                        <ul>
-                            <li><a href="/">Principal</a></li>
-                            <li><a href="/Home/Ejercicio2">Ejercicio 2</a></li>
-                            <li><a href="/Producto/Index">Gestión de Productos</a></li>
-                            <li><a href="/Home/AcercaDe">Acerca de</a></li>
-                        </ul>
-
-                    </div>
+                        </div>
+                    </nav>
                 </div>
-            </article>
-        </aside>
+            </header>
 
-        <section>
-            <article>
-                @RenderBody()
-            </article>
-        </section>
+            <aside>
+                <article>
+                    <div>
+                        <h3>Sidebar</h3>
+                        <div>
+                            <ul>
+                                <li><a href="/Home/Index">Principal</a></li>
+                                <li><a href="/Ejercicios_HTMLyCSS/Index">EJERCICIOS HTML & CSS</a></li>
+                                <li><a href="/Ejercicios_CSS/Index">EJERCICIOS CSS</a></li>
+                                <li><a href="/Home/AcercaDe">Acerca de LPPA</a></li>
+                            </ul>
 
-        <footer>
-            <div class="row">&copy; @DateTime.Now.Year - Hernan Cortes - LPPA - Universidad Abierta Interamericana</div>
-        </footer>
- 
-        @RenderSection("scripts", required: false)
+                        </div>
+                    </div>
+                </article>
+            </aside>
 
-    </body>
+            <section>
+                <article>
+                    @RenderBody()
+                </article>
+            </section>
 
-</html>
+            <footer>
+                <div class="row">&copy; @DateTime.Now.Year - Hernan Cortes - LPPA - Universidad Abierta Interamericana</div>
+            </footer>
+
+            @RenderSection("scripts", required: false)
+
+        </body>
+
+    </html>

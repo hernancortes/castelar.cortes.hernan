@@ -49,7 +49,7 @@ body {
 
 nav {
     float: right;
-    width: 60%;
+    width: 90%;
 }
 
     nav ul {
@@ -79,8 +79,7 @@ nav {
         nav ul ul {
             position: absolute;
             left: -999em;
-            top: 2em;
-            list-style: none;
+            top: 20em;
         }
 
         nav ul li:hover ul {
@@ -93,6 +92,8 @@ aside {
     display: block;
     float: left;
     width: 20%;
+    text-transform: uppercase;
+    font-size: 11px;
 }
 
 section {
