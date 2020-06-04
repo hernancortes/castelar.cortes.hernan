@@ -1,4 +1,5 @@
 ## ***Repositorio para la materia LPPA***
+
 Hernan Cortes
-Universidad Abierta Interamericana
-2020
+
+Universidad Abierta Interamericana (2020)
